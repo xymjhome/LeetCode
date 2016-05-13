@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  125. Valid Palindrome.cpp
+e:\projects\visual studio 2015\projects\leetcode\125. valid palindrome\125. valid palindrome.cpp(60): warning C4715: “isPalindrome”: 不是所有的控件路径都返回值
+  125. Valid Palindrome.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\125. Valid Palindrome.exe

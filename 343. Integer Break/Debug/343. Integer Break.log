@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  343. Integer Break.cpp
+e:\projects\visual studio 2015\projects\leetcode\343. integer break\343. integer break.cpp(22): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\projects\visual studio 2015\projects\leetcode\343. integer break\343. integer break.cpp(25): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\projects\visual studio 2015\projects\leetcode\343. integer break\343. integer break.cpp(28): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+e:\projects\visual studio 2015\projects\leetcode\343. integer break\343. integer break.cpp(43): warning C4715: “integerBreak2”: 不是所有的控件路径都返回值
+  343. Integer Break.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\343. Integer Break.exe

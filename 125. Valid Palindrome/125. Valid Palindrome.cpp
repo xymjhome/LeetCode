@@ -26,7 +26,8 @@ using namespace std;
 //说明：当c为标点符号时，返回非零值，否则返回零。
 //标点符号指那些既不是字母数字，也不是空格的可打印字符。
 //相关函数：isalnum,isalpha,isdigit,isxdigit,iscntrl,isgraph,isprint,isspace
-
+   
+//ceshi
 //myself
 bool isPalindrome(string s) {
 	string ss1;

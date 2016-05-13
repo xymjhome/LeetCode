@@ -2,7 +2,7 @@
 //
 //Write a program to check whether a given number is an ugly number.
 //
-//Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 6, 8 are ugly while 14 is not ugly since it includes another prime factor 7.
+//Ugly numbers are positive numbers whose prime factors only include 2, 3, 5. For example, 6, 8 are ugly while 14 is not ugly since it includes another prime factor 7.(prime factors  质因数)
 //
 //Note that 1 is typically treated as an ugly number.
 //Write a program to check whether a given number is an ugly number.
@@ -13,6 +13,7 @@
 //例如，6, 8是丑陋数而14不是，因为它包含额外的质因子7,注意，数字1也被视为丑陋数。  
 //解题思路：根据丑陋数的定义，我们将给定数除以2、3、5，直到无法整除，也就是除以2、3、5的余数不再为0时停止。 
 //这时如果得到1，说明是所有因子都是2或3或5，如果不是1，则不是丑陋数。
+
 #include "stdafx.h"
 #include <iostream>
 using namespace std;

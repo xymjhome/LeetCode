@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  268. Missing Number.cpp
+e:\projects\visual studio 2015\projects\leetcode\268. missing number\268. missing number.cpp(30): warning C4101: “res”: 未引用的局部变量
+e:\projects\visual studio 2015\projects\leetcode\268. missing number\268. missing number.cpp(86): warning C4018: “<=”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\268. missing number\268. missing number.cpp(97): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\268. missing number\268. missing number.cpp(49): warning C4715: “missingNumber”: 不是所有的控件路径都返回值
+  268. Missing Number.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\268. Missing Number.exe

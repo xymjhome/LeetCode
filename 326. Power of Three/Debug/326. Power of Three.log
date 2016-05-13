@@ -1,0 +1,4 @@
+﻿  stdafx.cpp
+  326. Power of Three.cpp
+e:\projects\visual studio 2015\projects\leetcode\326. power of three\326. power of three.cpp(33): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  326. Power of Three.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\326. Power of Three.exe
