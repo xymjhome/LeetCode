@@ -163,7 +163,70 @@ bool isPalindrome2(ListNode* head) {
 
 //解法三：递归算法。【（1）比较朴素的算法。由于给定的数据结构是单链表，要访问链表的尾部元素，必须从头开始遍历。为了方便判断，我们可以申请一个辅助栈结构来存储链表的内容，第一次遍历将链表节点值依次入栈，第二次遍历比较判断是否为回文。
 //（2).时间O(n)和空间O(1)解法。既然用到了栈，可以想到递归的过程本身就是出入栈的过程，我们可以先递归访问单链表，然后做比较。这样就省去了辅助空间，从而将空间复杂度降为O(1)】
+
+ListNode* listHead = NULL;
+bool flag = true;
+//Myself   每次都返回头结点，这种和直接返回程序结果还是有差距，应该向Internet上一样，直接根据根据递归从后往前比较链表元素是否相等的真假值来控制递归函数的递归。   但是这种方法减少了一半链表的比较操作。
+ListNode* judgement(ListNode* head) {
+	if (head->next == NULL||head==NULL)
+	{
+		return head;
+	}
+	ListNode *p = head->next;
+	ListNode *n = judgement(p);
+	head->next = NULL;
+	if (listHead != NULL)
+	{
+		if (n->val != listHead->val)
+		{
+			flag = false;
+		}
+		listHead = listHead->next;
+	}
+	return head;
+}
+
 bool isPalindrome3(ListNode* head) {
+	if (head == NULL || head->next == NULL)
+	{
+		return true;
+	}
+	listHead = head;
+	judgement(head);
+	bool res = flag;
+	return res;
+
+}
+
+
+////解法三：递归算法。Internet  +  Myself
+bool judgementBool(ListNode* head) {
+	if (head->next == NULL || head == NULL)
+	{
+		return true;
+	}
+	ListNode *p = head->next;
+	bool tag = judgementBool(p);
+	if (!tag)
+	{
+		return false;
+	}
+	if (p->val!=listHead->val)
+	{
+		return false;
+	}
+	listHead = listHead->next;
+	//return true;//不加此句话表示每次递归时如果比较元素相等则没有返回值，函数没有返回值是错误的。Run Code Status: Compile Error（编译错误） : control reaches end of non-void function [-Werror=return-type]
+}
+
+bool isPalindrome4(ListNode* head) {
+	if (head == NULL || head->next == NULL)
+	{
+		return true;
+	}
+	listHead = head;
+	bool res = judgementBool(head);
+	return res;
 
 }
 int main()
@@ -182,7 +245,7 @@ int main()
 
 	ListNode head(-1);
 	ListNode *p = &head;
-	vector<int> vals = { 1,2,3,4,5,6,7,8,9,9,8,7,6,5,4,3,2,1};
+	vector<int> vals = { 1,2,3,4,5,6,7,8,9,10,9,9,7,6,5,4,3,2,1};
 	for (int i = 0; i < vals.size(); i++) {
 		p->next = new ListNode(vals[i]);
 		p = p->next;
@@ -194,8 +257,10 @@ int main()
 	cout << endl;
 	
 
-	auto res = isPalindrome2(head.next);
+	auto res = isPalindrome4(head.next);
 	cout <<boolalpha<< res << endl;
+
+	
 
 
 	time_t rawtime1 = time(0);

@@ -1,0 +1,7 @@
+﻿  61. Rotate List.cpp
+e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(134): error C3861: “reverseList”: 找不到标识符
+e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(135): error C2227: “->next”的左边必须指向类/结构/联合/泛型类型
+  e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(135): note: 类型是“unknown-type”
+e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(137): error C2227: “->val”的左边必须指向类/结构/联合/泛型类型
+  e:\projects\visual studio 2015\projects\leetcode\61. rotate list\61. rotate list.cpp(137): note: 类型是“unknown-type”

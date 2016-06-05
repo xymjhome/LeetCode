@@ -1,0 +1,8 @@
+585道
+I、*
+22. Generate Parentheses.cpp
+现在算法利用递归进行求解，要以后用树的思想求解，并理解下卡塔兰数。
+
+II、***
+309. Best Time to Buy and Sell Stock with Cooldown.cpp
+需要以后复习动态规划（Dynamic Programming）后在仔细看，现在不明白。改写代码不正确，完全不理解此题的解题思路，所以改写也不对，需要看完动态规划重新看

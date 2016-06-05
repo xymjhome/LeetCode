@@ -1,0 +1,7 @@
+﻿  2. Add Two Numbers.cpp
+e:\projects\visual studio 2015\projects\leetcode\2. add two numbers\2. add two numbers.cpp(66): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+e:\projects\visual studio 2015\projects\leetcode\2. add two numbers\2. add two numbers.cpp(70): warning C4244: “+=”: 从“double”转换到“__int64”，可能丢失数据
+e:\projects\visual studio 2015\projects\leetcode\2. add two numbers\2. add two numbers.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\2. add two numbers\2. add two numbers.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\2. add two numbers\2. add two numbers.cpp(254): warning C4018: “<”: 有符号/无符号不匹配
+  2. Add Two Numbers.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\2. Add Two Numbers.exe
