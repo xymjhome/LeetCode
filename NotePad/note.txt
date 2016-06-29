@@ -6,3 +6,22 @@ I、*
 II、***
 309. Best Time to Buy and Sell Stock with Cooldown.cpp
 需要以后复习动态规划（Dynamic Programming）后在仔细看，现在不明白。改写代码不正确，完全不理解此题的解题思路，所以改写也不对，需要看完动态规划重新看
+
+III、*
+324. Wiggle Sort II
+//Internet  这种通过映射交换的没有理解，需进一步看
+//下面这个通过映射移动对于去中值只有问题，取中值下一个最大可以
+int len = nums.size(), low = 0, high = len - 1, mid = nums[minIndex -1], i = 0;
+auto index = [=](int pos) { return (1 + pos * 2) % (len | 1); };//lambda  隐式捕获[=],[&]，&告诉编译器采用捕获引用的方式，=则表示采用值捕获的方式。
+while (i <= high)
+{
+	if (nums[index(i)] > mid) 
+	{
+		swap(nums[index(i++)], nums[index(low++)]);
+	}
+	else if (nums[index(i)] < mid)
+	{
+		swap(nums[index(i)], nums[index(high--)]);
+	}
+	else i++;
+}

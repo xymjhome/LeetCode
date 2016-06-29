@@ -1,7 +1,12 @@
 ﻿  23. Merge k Sorted Lists.cpp
-e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(75): warning C4018: “<”: 有符号/无符号不匹配
-e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(82): warning C4018: “<”: 有符号/无符号不匹配
-e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(89): warning C4018: “<”: 有符号/无符号不匹配
-e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(96): warning C4018: “<”: 有符号/无符号不匹配
-e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(103): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(86): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(90): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(183): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(260): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(277): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(291): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(298): warning C4018: “<”: 有符号/无符号不匹配
+e:\projects\visual studio 2015\projects\leetcode\23. merge k sorted lists\23. merge k sorted lists.cpp(305): warning C4018: “<”: 有符号/无符号不匹配
   23. Merge k Sorted Lists.vcxproj -> E:\Projects\visual studio 2015\Projects\LeetCode\Debug\23. Merge k Sorted Lists.exe
